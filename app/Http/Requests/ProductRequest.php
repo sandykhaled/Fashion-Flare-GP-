@@ -35,6 +35,7 @@ class ProductRequest extends FormRequest
             'occasion' => ['required', 'string', 'max:255'],
             'material' => ['required', 'string', 'max:255'],
             'gender' => ['required', 'string', 'max:255'],
+            'size' =>['required','string','max:255']
         ];
     }
 }

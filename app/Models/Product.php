@@ -26,6 +26,7 @@ class Product extends Model
         'occasion',
         'material',
         'gender',
+        'size'
     ];    public function images(): HasMany
     {
         return $this->hasMany(Image::class);

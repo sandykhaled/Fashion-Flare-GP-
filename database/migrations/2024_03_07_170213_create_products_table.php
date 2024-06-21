@@ -27,6 +27,7 @@ return new class extends Migration
             $table->string('occasion');
             $table->string('material');
             $table->string('gender');
+            $table->string('size');
             $table->timestamps();
         });
     }
